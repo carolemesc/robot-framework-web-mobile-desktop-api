@@ -1,14 +1,20 @@
 *** Settings ***
 Resource          ../resource/keywords.robot
-Suite Setup       Abra o site do Sandbox Paypal
-Suite Teardown    Close Browser    ALL
+Test Setup        Abra o site do Sandbox Paypal
+Test Teardown     Close Browser    ALL
 
 *** Test Cases ***
 
-Crie uma conta no Sandbox Paypal na WEB
+Crie uma conta no Sandbox Paypal
     Crie uma conta grátis
+    Valide o login automático
     
 
-# Acesse uma conta previamente criada no Pinteres WEB
-    # Faça login com a conta previamente criada
-    # Crie um cartão de crédito na aplicação
+Crie a conta, acesse uma conta no Sandbox Paypal e adicione um cartão
+    Crie uma conta grátis
+    Faça login com a conta previamente criada
+    #Adicione um cartão de crédito na aplicação
+
+Fazer login com conta existente
+    Faça login    carol@yopmail.com    @123@123
+    #Adicione um cartão de crédito na aplicação

@@ -1,0 +1,1111 @@
+{"level":30,"time":"2023-09-02T22:06:05.482Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Listening on 63010"}
+{"level":30,"time":"2023-09-02T22:06:05.663Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:06:05.664Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:06:05.666Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:06:05.666Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:06:05.671Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9903:15)
+    at PlaywrightServer.evaluateJavascript (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9958:75)
+    at C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:394:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:381:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-02T22:06:05.671Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:05.679Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-09-02T22:06:06.204Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method newBrowser"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9903:15)
+    at PlaywrightServer.evaluateJavascript (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9958:75)
+    at C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:394:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:381:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-02T22:06:06.209Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:06.209Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:06.215Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-09-02T22:06:06.216Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-09-02T22:06:06.216Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Trace file: "}
+{"level":30,"time":"2023-09-02T22:06:06.232Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Changed active context"}
+{"level":30,"time":"2023-09-02T22:06:06.232Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method newContext"}
+================= Original suppressed error =================
+{"level":30,"time":"2023-09-02T22:06:06.238Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9903:15)
+    at PlaywrightServer.evaluateJavascript (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9958:75)
+    at C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:394:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:381:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-02T22:06:06.238Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:06.243Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-09-02T22:06:06.243Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-09-02T22:06:06.457Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Video path: undefined"}
+{"level":30,"time":"2023-09-02T22:06:06.457Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Changed active page"}
+{"level":30,"time":"2023-09-02T22:06:07.923Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method newPage"}
+{"level":30,"time":"2023-09-02T22:06:07.926Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:08.021Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:08.041Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:08.046Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:08.049Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:08.049Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=signup-button in page."}
+{"level":30,"time":"2023-09-02T22:06:08.175Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:08.176Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:08.176Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=signup-button in page."}
+{"level":30,"time":"2023-09-02T22:06:08.192Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:08.214Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:10.217Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:06:10.217Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=signup-button in page."}
+{"level":30,"time":"2023-09-02T22:06:10.806Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:06:10.809Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:10.828Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:10.831Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:10.832Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//span[contains(.,'Para mim')] in page."}
+{"level":30,"time":"2023-09-02T22:06:10.984Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:10.986Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:10.986Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//span[contains(.,'Para mim')] in page."}
+{"level":30,"time":"2023-09-02T22:06:10.994Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:11.065Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:13.068Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2023-09-02T22:06:13.068Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//span[contains(.,'Para mim')] in page."}
+{"level":30,"time":"2023-09-02T22:06:13.080Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method checkCheckbox"}
+{"level":30,"time":"2023-09-02T22:06:13.085Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:13.087Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:13.089Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:13.089Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(.,'Avançar')] in page."}
+{"level":30,"time":"2023-09-02T22:06:13.137Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:13.138Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:13.138Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//a[contains(.,'Avançar')] in page."}
+{"level":30,"time":"2023-09-02T22:06:13.142Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:13.145Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:15.150Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:06:15.150Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(.,'Avançar')] in page."}
+{"level":30,"time":"2023-09-02T22:06:15.870Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:06:15.874Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:15.877Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:15.879Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:15.879Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//input[@type='tel'][contains(@id,'phone')] in page."}
+{"level":30,"time":"2023-09-02T22:06:16.027Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:16.029Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:16.029Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//input[@type='tel'][contains(@id,'phone')] in page."}
+{"level":30,"time":"2023-09-02T22:06:16.031Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:16.036Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:18.040Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:18.040Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//input[@type='tel'][contains(@id,'phone')] in page."}
+{"level":30,"time":"2023-09-02T22:06:18.088Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:18.090Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:18.093Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:18.095Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:18.095Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//button[@class='pp-cons-ylhy9c-button_base-text_button_lg-btn_full_width'][contains(@id,'submit')][contains(.,'Avançar')] in page."}
+{"level":30,"time":"2023-09-02T22:06:18.119Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:18.121Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:18.121Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//button[@class='pp-cons-ylhy9c-button_base-text_button_lg-btn_full_width'][contains(@id,'submit')][contains(.,'Avançar')] in page."}
+{"level":30,"time":"2023-09-02T22:06:18.122Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:18.126Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:20.129Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:06:20.129Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//button[@class='pp-cons-ylhy9c-button_base-text_button_lg-btn_full_width'][contains(@id,'submit')][contains(.,'Avançar')] in page."}
+{"level":30,"time":"2023-09-02T22:06:20.248Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:06:20.252Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:20.254Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:20.256Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:20.256Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//input[@class='pp-cons-18498sj-text_input_control-text_body-no_label_text_input_control-label_placeholder_shown_and_not_focused-text_body'][contains(@id,'0')] in page."}
+{"level":30,"time":"2023-09-02T22:06:21.105Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:21.106Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:21.106Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//input[@class='pp-cons-18498sj-text_input_control-text_body-no_label_text_input_control-label_placeholder_shown_and_not_focused-text_body'][contains(@id,'0')] in page."}
+{"level":30,"time":"2023-09-02T22:06:21.108Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:21.110Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:23.113Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:23.113Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//input[@class='pp-cons-18498sj-text_input_control-text_body-no_label_text_input_control-label_placeholder_shown_and_not_focused-text_body'][contains(@id,'0')] in page."}
+{"level":30,"time":"2023-09-02T22:06:23.162Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:23.169Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:23.176Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:23.180Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:23.180Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_email in page."}
+{"level":30,"time":"2023-09-02T22:06:24.038Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:24.040Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:24.040Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_email in page."}
+{"level":30,"time":"2023-09-02T22:06:24.041Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:24.044Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:26.047Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:26.047Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_email in page."}
+{"level":30,"time":"2023-09-02T22:06:26.108Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:26.110Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:26.113Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:26.114Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:26.114Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_firstName in page."}
+{"level":30,"time":"2023-09-02T22:06:26.158Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:26.159Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:26.159Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_firstName in page."}
+{"level":30,"time":"2023-09-02T22:06:26.160Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:26.163Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:28.166Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:28.166Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_firstName in page."}
+{"level":30,"time":"2023-09-02T22:06:28.247Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:28.250Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:28.253Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:28.257Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:28.257Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_lastName in page."}
+{"level":30,"time":"2023-09-02T22:06:28.312Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:28.314Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:28.314Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_lastName in page."}
+{"level":30,"time":"2023-09-02T22:06:28.316Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:28.323Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:30.326Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:30.326Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_lastName in page."}
+{"level":30,"time":"2023-09-02T22:06:30.397Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:30.399Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:30.402Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:30.406Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:30.406Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_motherFirstName in page."}
+{"level":30,"time":"2023-09-02T22:06:30.443Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:30.444Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:30.444Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_motherFirstName in page."}
+{"level":30,"time":"2023-09-02T22:06:30.445Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:30.448Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:32.451Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:32.452Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_motherFirstName in page."}
+{"level":30,"time":"2023-09-02T22:06:32.521Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:32.524Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:32.527Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:32.528Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:32.528Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_motherLastName in page."}
+{"level":30,"time":"2023-09-02T22:06:32.577Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:32.578Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:32.578Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_motherLastName in page."}
+{"level":30,"time":"2023-09-02T22:06:32.580Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:32.583Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:34.586Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:34.586Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_motherLastName in page."}
+{"level":30,"time":"2023-09-02T22:06:34.647Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:34.650Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:34.652Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:34.654Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:34.654Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_dob in page."}
+{"level":30,"time":"2023-09-02T22:06:34.694Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:34.696Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:34.696Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_dob in page."}
+{"level":30,"time":"2023-09-02T22:06:34.698Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:34.701Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:36.704Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:36.704Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_dob in page."}
+{"level":30,"time":"2023-09-02T22:06:36.769Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:36.773Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:36.776Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:36.778Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:36.779Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_tax in page."}
+{"level":30,"time":"2023-09-02T22:06:36.828Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:36.830Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_tax in page."}
+{"level":30,"time":"2023-09-02T22:06:36.829Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:36.831Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:36.835Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:38.837Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:38.837Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_tax in page."}
+{"level":30,"time":"2023-09-02T22:06:38.891Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:38.896Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:38.898Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:38.900Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:38.900Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_password in page."}
+{"level":30,"time":"2023-09-02T22:06:38.945Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:38.946Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:38.946Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_password in page."}
+{"level":30,"time":"2023-09-02T22:06:38.948Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:38.951Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:40.953Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:40.953Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_password in page."}
+{"level":30,"time":"2023-09-02T22:06:41.016Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:41.019Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:41.021Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:41.023Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:41.023Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_confirmPassword in page."}
+{"level":30,"time":"2023-09-02T22:06:41.063Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:41.064Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:41.064Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_confirmPassword in page."}
+{"level":30,"time":"2023-09-02T22:06:41.066Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:41.069Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:43.072Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:43.072Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_confirmPassword in page."}
+{"level":30,"time":"2023-09-02T22:06:43.164Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:43.167Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:43.169Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:43.171Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:43.171Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_emailPassword in page."}
+{"level":30,"time":"2023-09-02T22:06:43.213Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:43.215Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:43.215Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_emailPassword in page."}
+{"level":30,"time":"2023-09-02T22:06:43.216Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:43.219Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:45.222Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:06:45.222Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_emailPassword in page."}
+{"level":30,"time":"2023-09-02T22:06:45.355Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:06:45.357Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:45.361Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:45.364Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:45.364Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=combo_txt_paypalAccountData_occupation in page."}
+{"level":30,"time":"2023-09-02T22:06:46.214Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:46.215Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:46.216Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=combo_txt_paypalAccountData_occupation in page."}
+{"level":30,"time":"2023-09-02T22:06:46.217Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:46.220Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:48.224Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:06:48.224Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=combo_txt_paypalAccountData_occupation in page."}
+{"level":30,"time":"2023-09-02T22:06:48.484Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:06:48.486Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:48.488Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:48.490Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:48.490Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=/paypalAccountData/occupation__busMgmtBenefitsAdmin in page."}
+{"level":30,"time":"2023-09-02T22:06:48.566Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:48.568Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:48.568Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=/paypalAccountData/occupation__busMgmtBenefitsAdmin in page."}
+{"level":30,"time":"2023-09-02T22:06:48.570Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:48.573Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:50.575Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:06:50.576Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=/paypalAccountData/occupation__busMgmtBenefitsAdmin in page."}
+{"level":30,"time":"2023-09-02T22:06:50.664Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:06:50.666Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:50.668Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:50.669Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:50.669Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=dropdownMenuButton_paypalAccountData_monthlyIncome in page."}
+{"level":30,"time":"2023-09-02T22:06:50.715Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:50.717Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:50.717Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=dropdownMenuButton_paypalAccountData_monthlyIncome in page."}
+{"level":30,"time":"2023-09-02T22:06:50.719Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:50.722Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:52.725Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:06:52.725Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=dropdownMenuButton_paypalAccountData_monthlyIncome in page."}
+{"level":30,"time":"2023-09-02T22:06:52.821Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:06:52.823Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:52.826Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:52.827Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:52.827Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=smenu_item_R$1500000-R$2000000 in page."}
+{"level":30,"time":"2023-09-02T22:06:52.867Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:52.869Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:52.869Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=smenu_item_R$1500000-R$2000000 in page."}
+{"level":30,"time":"2023-09-02T22:06:52.870Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:52.873Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:54.876Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:06:54.876Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=smenu_item_R$1500000-R$2000000 in page."}
+{"level":30,"time":"2023-09-02T22:06:54.956Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:06:54.959Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:54.962Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:54.965Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:54.965Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_address1_0 in page."}
+{"level":30,"time":"2023-09-02T22:06:55.000Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:55.001Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:55.001Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_address1_0 in page."}
+{"level":30,"time":"2023-09-02T22:06:55.003Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:55.006Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:57.008Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:57.008Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_address1_0 in page."}
+{"level":30,"time":"2023-09-02T22:06:57.087Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:57.090Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:57.092Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:57.094Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:57.094Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_address2_0 in page."}
+{"level":30,"time":"2023-09-02T22:06:57.135Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:57.137Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:57.137Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_address2_0 in page."}
+{"level":30,"time":"2023-09-02T22:06:57.138Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:57.141Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:59.144Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:59.144Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_address2_0 in page."}
+{"level":30,"time":"2023-09-02T22:06:59.199Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:06:59.202Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:59.214Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:06:59.218Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:59.218Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_city_0 in page."}
+{"level":30,"time":"2023-09-02T22:06:59.254Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:06:59.255Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:06:59.255Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_city_0 in page."}
+{"level":30,"time":"2023-09-02T22:06:59.257Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:06:59.260Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:01.262Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:01.262Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_city_0 in page."}
+{"level":30,"time":"2023-09-02T22:07:01.346Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:01.348Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:01.351Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:01.353Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:01.353Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=dropdownMenuButton_paypalAccountData_state_0 in page."}
+{"level":30,"time":"2023-09-02T22:07:01.388Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:01.389Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:01.389Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=dropdownMenuButton_paypalAccountData_state_0 in page."}
+{"level":30,"time":"2023-09-02T22:07:01.391Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:01.399Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:03.404Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:07:03.404Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=dropdownMenuButton_paypalAccountData_state_0 in page."}
+{"level":30,"time":"2023-09-02T22:07:03.525Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:07:03.528Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:03.530Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:03.533Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:03.533Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=smenu_item_MG in page."}
+{"level":30,"time":"2023-09-02T22:07:03.571Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:03.573Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:03.573Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=smenu_item_MG in page."}
+{"level":30,"time":"2023-09-02T22:07:03.575Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:03.578Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:05.581Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:07:05.582Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=smenu_item_MG in page."}
+{"level":30,"time":"2023-09-02T22:07:05.665Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:07:05.668Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:05.672Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:05.675Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:05.675Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_zip_0 in page."}
+{"level":30,"time":"2023-09-02T22:07:05.705Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:05.706Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:05.706Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_zip_0 in page."}
+{"level":30,"time":"2023-09-02T22:07:05.708Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:05.710Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:07.713Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:07.713Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_zip_0 in page."}
+{"level":30,"time":"2023-09-02T22:07:07.781Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:07.783Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:07.788Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:07.789Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:07.789Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=(//span[@data-ppui='true'][contains(.,'Confirmo que li, aceito e concordo com o Contrato de Usuário do PayPal e com a Declaração de Privacidade, e que sou maior de idade.')])[2] in page."}
+{"level":30,"time":"2023-09-02T22:07:07.823Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:07.825Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:07.825Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=(//span[@data-ppui='true'][contains(.,'Confirmo que li, aceito e concordo com o Contrato de Usuário do PayPal e com a Declaração de Privacidade, e que sou maior de idade.')])[2] in page."}
+{"level":30,"time":"2023-09-02T22:07:07.826Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:07.829Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:09.831Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2023-09-02T22:07:09.832Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=(//span[@data-ppui='true'][contains(.,'Confirmo que li, aceito e concordo com o Contrato de Usuário do PayPal e com a Declaração de Privacidade, e que sou maior de idade.')])[2] in page."}
+{"level":30,"time":"2023-09-02T22:07:09.941Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method checkCheckbox"}
+{"level":30,"time":"2023-09-02T22:07:09.943Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:09.946Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:09.948Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:09.948Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_emailPassword in page."}
+{"level":30,"time":"2023-09-02T22:07:09.990Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:09.992Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:09.992Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_emailPassword in page."}
+{"level":30,"time":"2023-09-02T22:07:09.993Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:09.996Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:12.000Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:07:12.000Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_emailPassword in page."}
+{"level":30,"time":"2023-09-02T22:07:12.113Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:07:12.118Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:12.122Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:12.126Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:12.126Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//span[@class='inherit_stylesV2'][contains(.,'Bem-vindo ao PayPal!')] in page."}
+{"level":30,"time":"2023-09-02T22:07:17.076Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:17.077Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:17.077Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//span[@class='inherit_stylesV2'][contains(.,'Bem-vindo ao PayPal!')] in page."}
+{"level":30,"time":"2023-09-02T22:07:17.078Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:17.081Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:19.084Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method getText"}
+{"level":30,"time":"2023-09-02T22:07:19.084Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//span[@class='inherit_stylesV2'][contains(.,'Bem-vindo ao PayPal!')] in page."}
+{"level":30,"time":"2023-09-02T22:07:19.103Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Retrieved text for element xpath=//span[@class='inherit_stylesV2'][contains(.,'Bem-vindo ao PayPal!')] containing Bem-vindo ao PayPal!"}
+{"level":30,"time":"2023-09-02T22:07:19.103Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method getText"}
+{"level":30,"time":"2023-09-02T22:07:19.107Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:19.110Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:19.111Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:19.111Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//button[@class='pp-cons-ylhy9c-button_base-text_button_lg-btn_full_width'][contains(.,'Ativar conta')] in page."}
+{"level":30,"time":"2023-09-02T22:07:19.161Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:19.162Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:19.162Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//button[@class='pp-cons-ylhy9c-button_base-text_button_lg-btn_full_width'][contains(.,'Ativar conta')] in page."}
+{"level":30,"time":"2023-09-02T22:07:19.164Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:19.166Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:21.169Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:07:21.169Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//button[@class='pp-cons-ylhy9c-button_base-text_button_lg-btn_full_width'][contains(.,'Ativar conta')] in page."}
+{"level":30,"time":"2023-09-02T22:07:21.245Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:07:21.247Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:21.252Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:21.255Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-09-02T22:07:21.256Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=header-notifications in page."}
+{"level":30,"time":"2023-09-02T22:07:23.738Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-09-02T22:07:23.742Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:23.747Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:23.776Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:23.780Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:23.783Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-09-02T22:07:23.799Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Removed page=c8edabc2-a049-40ca-b15f-5a457cf7a545 from context=badb8740-8f02-4b50-8d17-370ee3c7c5a1 page stack"}
+{"level":30,"time":"2023-09-02T22:07:24.097Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method closeAllBrowsers"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9385:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9898:59)
+    at PlaywrightServer.setTimeout (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:10144:57)
+    at C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:394:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:381:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-02T22:07:29.104Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:07:29.104Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:07:29.110Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:07:29.110Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:07:29.113Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9903:15)
+    at PlaywrightServer.evaluateJavascript (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9958:75)
+    at C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:394:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:381:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-02T22:07:29.113Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:29.116Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-09-02T22:07:29.595Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-09-02T22:07:29.599Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9903:15)
+    at PlaywrightServer.evaluateJavascript (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9958:75)
+    at C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:394:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:381:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-02T22:07:29.599Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:29.603Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-09-02T22:07:29.603Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-09-02T22:07:29.603Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Trace file: "}
+{"level":30,"time":"2023-09-02T22:07:29.616Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Changed active context"}
+{"level":30,"time":"2023-09-02T22:07:29.617Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method newContext"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9903:15)
+    at PlaywrightServer.evaluateJavascript (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9958:75)
+    at C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:394:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:381:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-02T22:07:29.621Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:29.621Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:29.624Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-09-02T22:07:29.624Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-09-02T22:07:29.834Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Video path: undefined"}
+{"level":30,"time":"2023-09-02T22:07:29.834Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Changed active page"}
+{"level":30,"time":"2023-09-02T22:07:31.218Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method newPage"}
+{"level":30,"time":"2023-09-02T22:07:31.221Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:31.306Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:31.318Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:31.324Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:31.326Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:31.326Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=signup-button in page."}
+{"level":30,"time":"2023-09-02T22:07:31.385Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:31.386Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:31.386Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=signup-button in page."}
+{"level":30,"time":"2023-09-02T22:07:31.412Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:31.422Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:33.424Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:07:33.424Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=signup-button in page."}
+{"level":30,"time":"2023-09-02T22:07:34.043Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:07:34.046Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:34.078Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:34.081Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:34.081Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//span[contains(.,'Para mim')] in page."}
+{"level":30,"time":"2023-09-02T22:07:34.199Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:34.201Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:34.201Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//span[contains(.,'Para mim')] in page."}
+{"level":30,"time":"2023-09-02T22:07:34.203Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:34.207Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:36.209Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2023-09-02T22:07:36.209Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//span[contains(.,'Para mim')] in page."}
+{"level":30,"time":"2023-09-02T22:07:36.225Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method checkCheckbox"}
+{"level":30,"time":"2023-09-02T22:07:36.227Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:36.230Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:36.234Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:36.234Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(.,'Avançar')] in page."}
+{"level":30,"time":"2023-09-02T22:07:36.285Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:36.286Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:36.286Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//a[contains(.,'Avançar')] in page."}
+{"level":30,"time":"2023-09-02T22:07:36.287Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:36.290Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:38.294Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:07:38.294Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(.,'Avançar')] in page."}
+{"level":30,"time":"2023-09-02T22:07:38.954Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:07:38.957Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:38.960Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:38.962Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:38.962Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//input[@type='tel'][contains(@id,'phone')] in page."}
+{"level":30,"time":"2023-09-02T22:07:39.111Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:39.115Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:39.115Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//input[@type='tel'][contains(@id,'phone')] in page."}
+{"level":30,"time":"2023-09-02T22:07:39.117Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:39.121Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:41.123Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:41.123Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//input[@type='tel'][contains(@id,'phone')] in page."}
+{"level":30,"time":"2023-09-02T22:07:41.168Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:41.170Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:41.173Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:41.174Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:41.175Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//button[@class='pp-cons-ylhy9c-button_base-text_button_lg-btn_full_width'][contains(@id,'submit')][contains(.,'Avançar')] in page."}
+{"level":30,"time":"2023-09-02T22:07:41.202Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:41.203Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:41.203Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//button[@class='pp-cons-ylhy9c-button_base-text_button_lg-btn_full_width'][contains(@id,'submit')][contains(.,'Avançar')] in page."}
+{"level":30,"time":"2023-09-02T22:07:41.205Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:41.207Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:43.211Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:07:43.211Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//button[@class='pp-cons-ylhy9c-button_base-text_button_lg-btn_full_width'][contains(@id,'submit')][contains(.,'Avançar')] in page."}
+{"level":30,"time":"2023-09-02T22:07:43.314Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:07:43.317Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:43.320Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:43.321Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:43.321Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//input[@class='pp-cons-18498sj-text_input_control-text_body-no_label_text_input_control-label_placeholder_shown_and_not_focused-text_body'][contains(@id,'0')] in page."}
+{"level":30,"time":"2023-09-02T22:07:44.169Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:44.170Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:44.170Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//input[@class='pp-cons-18498sj-text_input_control-text_body-no_label_text_input_control-label_placeholder_shown_and_not_focused-text_body'][contains(@id,'0')] in page."}
+{"level":30,"time":"2023-09-02T22:07:44.172Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:44.175Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:46.178Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:46.178Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//input[@class='pp-cons-18498sj-text_input_control-text_body-no_label_text_input_control-label_placeholder_shown_and_not_focused-text_body'][contains(@id,'0')] in page."}
+{"level":30,"time":"2023-09-02T22:07:46.240Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:46.245Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:46.254Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:46.258Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:46.258Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_email in page."}
+{"level":30,"time":"2023-09-02T22:07:46.753Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:46.755Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:46.755Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_email in page."}
+{"level":30,"time":"2023-09-02T22:07:46.756Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:46.759Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:48.763Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:48.763Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_email in page."}
+{"level":30,"time":"2023-09-02T22:07:48.827Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:48.830Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:48.832Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:48.836Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:48.836Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_firstName in page."}
+{"level":30,"time":"2023-09-02T22:07:48.891Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:48.892Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:48.892Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_firstName in page."}
+{"level":30,"time":"2023-09-02T22:07:48.894Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:48.897Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:50.900Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:50.900Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_firstName in page."}
+{"level":30,"time":"2023-09-02T22:07:50.984Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:50.987Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:50.990Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:50.992Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:50.992Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_lastName in page."}
+{"level":30,"time":"2023-09-02T22:07:51.040Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:51.041Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:51.041Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_lastName in page."}
+{"level":30,"time":"2023-09-02T22:07:51.043Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:51.046Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:53.049Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:53.049Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_lastName in page."}
+{"level":30,"time":"2023-09-02T22:07:53.126Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:53.129Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:53.132Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:53.133Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:53.133Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_motherFirstName in page."}
+{"level":30,"time":"2023-09-02T22:07:53.173Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:53.175Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:53.175Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_motherFirstName in page."}
+{"level":30,"time":"2023-09-02T22:07:53.177Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:53.182Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:55.185Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:55.185Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_motherFirstName in page."}
+{"level":30,"time":"2023-09-02T22:07:55.256Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:55.258Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:55.261Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:55.262Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:55.262Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_motherLastName in page."}
+{"level":30,"time":"2023-09-02T22:07:55.309Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:55.310Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:55.310Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_motherLastName in page."}
+{"level":30,"time":"2023-09-02T22:07:55.312Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:55.314Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:57.318Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:57.318Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_motherLastName in page."}
+{"level":30,"time":"2023-09-02T22:07:57.384Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:57.387Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:57.394Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:57.396Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:57.396Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_dob in page."}
+{"level":30,"time":"2023-09-02T22:07:57.442Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:57.443Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_dob in page."}
+{"level":30,"time":"2023-09-02T22:07:57.443Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:57.445Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:57.448Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:59.451Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:59.451Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_dob in page."}
+{"level":30,"time":"2023-09-02T22:07:59.508Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:07:59.512Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:59.515Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:07:59.517Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:59.517Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_tax in page."}
+{"level":30,"time":"2023-09-02T22:07:59.559Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:07:59.560Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:07:59.560Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_tax in page."}
+{"level":30,"time":"2023-09-02T22:07:59.562Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:07:59.565Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:01.569Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:01.569Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_tax in page."}
+{"level":30,"time":"2023-09-02T22:08:01.623Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:01.628Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:01.631Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:01.633Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:01.633Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_password in page."}
+{"level":30,"time":"2023-09-02T22:08:01.679Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:01.680Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:01.680Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_password in page."}
+{"level":30,"time":"2023-09-02T22:08:01.682Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:01.685Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:03.688Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:03.689Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_password in page."}
+{"level":30,"time":"2023-09-02T22:08:03.758Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:03.761Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:03.763Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:03.765Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:03.765Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_confirmPassword in page."}
+{"level":30,"time":"2023-09-02T22:08:03.812Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:03.813Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:03.813Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_confirmPassword in page."}
+{"level":30,"time":"2023-09-02T22:08:03.815Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:03.818Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:05.821Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:05.821Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_confirmPassword in page."}
+{"level":30,"time":"2023-09-02T22:08:05.920Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:05.922Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:05.926Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:05.928Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:05.928Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_emailPassword in page."}
+{"level":30,"time":"2023-09-02T22:08:05.961Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:05.963Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:05.963Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_emailPassword in page."}
+{"level":30,"time":"2023-09-02T22:08:05.964Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:05.967Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:07.969Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:08:07.970Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_emailPassword in page."}
+{"level":30,"time":"2023-09-02T22:08:08.089Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:08:08.093Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:08.096Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:08.097Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:08.097Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=combo_txt_paypalAccountData_occupation in page."}
+{"level":30,"time":"2023-09-02T22:08:08.980Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:08.981Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:08.981Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=combo_txt_paypalAccountData_occupation in page."}
+{"level":30,"time":"2023-09-02T22:08:08.983Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:08.986Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:10.989Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:08:10.989Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=combo_txt_paypalAccountData_occupation in page."}
+{"level":30,"time":"2023-09-02T22:08:11.268Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:08:11.271Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:11.273Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:11.275Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:11.275Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=/paypalAccountData/occupation__busMgmtBenefitsAdmin in page."}
+{"level":30,"time":"2023-09-02T22:08:11.349Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:11.350Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:11.350Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=/paypalAccountData/occupation__busMgmtBenefitsAdmin in page."}
+{"level":30,"time":"2023-09-02T22:08:11.352Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:11.356Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:13.361Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:08:13.361Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=/paypalAccountData/occupation__busMgmtBenefitsAdmin in page."}
+{"level":30,"time":"2023-09-02T22:08:13.439Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:08:13.442Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:13.444Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:13.447Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:13.447Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=dropdownMenuButton_paypalAccountData_monthlyIncome in page."}
+{"level":30,"time":"2023-09-02T22:08:13.480Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:13.482Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:13.482Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=dropdownMenuButton_paypalAccountData_monthlyIncome in page."}
+{"level":30,"time":"2023-09-02T22:08:13.483Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:13.486Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:15.490Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:08:15.490Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=dropdownMenuButton_paypalAccountData_monthlyIncome in page."}
+{"level":30,"time":"2023-09-02T22:08:15.602Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:08:15.605Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:15.607Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:15.608Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:15.608Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=smenu_item_R$1500000-R$2000000 in page."}
+{"level":30,"time":"2023-09-02T22:08:15.649Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:15.650Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:15.650Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=smenu_item_R$1500000-R$2000000 in page."}
+{"level":30,"time":"2023-09-02T22:08:15.652Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:15.654Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:17.657Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:08:17.657Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=smenu_item_R$1500000-R$2000000 in page."}
+{"level":30,"time":"2023-09-02T22:08:17.736Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:08:17.739Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:17.742Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:17.745Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:17.745Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_address1_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:17.781Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:17.783Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:17.783Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_address1_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:17.785Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:17.788Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:19.790Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:19.790Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_address1_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:19.859Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:19.862Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:19.865Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:19.867Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:19.867Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_address2_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:19.918Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:19.920Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:19.920Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_address2_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:19.921Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:19.924Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:21.926Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:21.926Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_address2_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:21.991Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:21.994Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:21.999Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:22.000Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:22.000Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_city_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:22.052Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:22.053Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:22.053Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_city_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:22.055Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:22.058Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:24.060Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:24.060Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_city_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:24.138Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:24.140Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:24.143Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:24.144Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:24.144Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=dropdownMenuButton_paypalAccountData_state_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:24.186Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:24.187Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:24.187Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=dropdownMenuButton_paypalAccountData_state_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:24.188Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:24.191Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:26.195Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:08:26.195Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=dropdownMenuButton_paypalAccountData_state_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:26.325Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:08:26.327Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:26.331Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:26.333Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:26.333Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=smenu_item_MG in page."}
+{"level":30,"time":"2023-09-02T22:08:26.370Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:26.371Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:26.371Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=smenu_item_MG in page."}
+{"level":30,"time":"2023-09-02T22:08:26.373Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:26.376Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:28.379Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:08:28.379Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=smenu_item_MG in page."}
+{"level":30,"time":"2023-09-02T22:08:28.463Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:08:28.467Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:28.470Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:28.472Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:28.472Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_zip_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:28.502Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:28.503Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:28.503Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_zip_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:28.505Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:28.507Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:30.510Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:30.510Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_zip_0 in page."}
+{"level":30,"time":"2023-09-02T22:08:30.583Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:30.586Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:30.588Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:30.589Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:30.589Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=(//span[@data-ppui='true'][contains(.,'Confirmo que li, aceito e concordo com o Contrato de Usuário do PayPal e com a Declaração de Privacidade, e que sou maior de idade.')])[2] in page."}
+{"level":30,"time":"2023-09-02T22:08:30.637Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:30.638Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:30.638Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=(//span[@data-ppui='true'][contains(.,'Confirmo que li, aceito e concordo com o Contrato de Usuário do PayPal e com a Declaração de Privacidade, e que sou maior de idade.')])[2] in page."}
+{"level":30,"time":"2023-09-02T22:08:30.640Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:30.643Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:32.646Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2023-09-02T22:08:32.646Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=(//span[@data-ppui='true'][contains(.,'Confirmo que li, aceito e concordo com o Contrato de Usuário do PayPal e com a Declaração de Privacidade, e que sou maior de idade.')])[2] in page."}
+{"level":30,"time":"2023-09-02T22:08:32.717Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method checkCheckbox"}
+{"level":30,"time":"2023-09-02T22:08:32.719Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:32.721Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:32.723Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:32.723Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_emailPassword in page."}
+{"level":30,"time":"2023-09-02T22:08:32.754Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:32.755Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:32.755Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=paypalAccountData_emailPassword in page."}
+{"level":30,"time":"2023-09-02T22:08:32.757Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:32.760Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:34.763Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:08:34.764Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=paypalAccountData_emailPassword in page."}
+{"level":30,"time":"2023-09-02T22:08:34.841Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:08:34.846Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:34.849Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:34.854Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:34.854Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//span[@class='inherit_stylesV2'][contains(.,'Bem-vindo ao PayPal!')] in page."}
+{"level":30,"time":"2023-09-02T22:08:40.290Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:40.292Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:40.292Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//span[@class='inherit_stylesV2'][contains(.,'Bem-vindo ao PayPal!')] in page."}
+{"level":30,"time":"2023-09-02T22:08:40.293Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:40.296Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:42.298Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method getText"}
+{"level":30,"time":"2023-09-02T22:08:42.298Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//span[@class='inherit_stylesV2'][contains(.,'Bem-vindo ao PayPal!')] in page."}
+{"level":30,"time":"2023-09-02T22:08:42.317Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method getText"}
+{"level":30,"time":"2023-09-02T22:08:42.317Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Retrieved text for element xpath=//span[@class='inherit_stylesV2'][contains(.,'Bem-vindo ao PayPal!')] containing Bem-vindo ao PayPal!"}
+{"level":30,"time":"2023-09-02T22:08:42.320Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:42.324Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:42.325Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:42.325Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//button[@class='pp-cons-ylhy9c-button_base-text_button_lg-btn_full_width'][contains(.,'Ativar conta')] in page."}
+{"level":30,"time":"2023-09-02T22:08:42.358Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:42.359Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:42.359Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//button[@class='pp-cons-ylhy9c-button_base-text_button_lg-btn_full_width'][contains(.,'Ativar conta')] in page."}
+{"level":30,"time":"2023-09-02T22:08:42.361Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:42.363Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:44.366Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:08:44.367Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//button[@class='pp-cons-ylhy9c-button_base-text_button_lg-btn_full_width'][contains(.,'Ativar conta')] in page."}
+{"level":30,"time":"2023-09-02T22:08:44.443Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:08:44.446Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:44.450Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:44.452Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-09-02T22:08:44.452Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=header-notifications in page."}
+{"level":30,"time":"2023-09-02T22:08:47.059Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-09-02T22:08:47.062Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:47.067Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:47.097Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:47.099Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:47.101Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:47.101Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=header-logout in page."}
+{"level":30,"time":"2023-09-02T22:08:47.162Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:47.164Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:47.164Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=header-logout in page."}
+{"level":30,"time":"2023-09-02T22:08:47.166Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:47.169Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:49.172Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:08:49.172Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=header-logout in page."}
+{"level":30,"time":"2023-09-02T22:08:50.439Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:08:50.444Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:50.505Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:50.508Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:50.509Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=ul-btn in page."}
+{"level":30,"time":"2023-09-02T22:08:50.727Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:50.729Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:50.729Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=ul-btn in page."}
+{"level":30,"time":"2023-09-02T22:08:50.731Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:50.735Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:52.738Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:08:52.738Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=ul-btn in page."}
+{"level":30,"time":"2023-09-02T22:08:53.470Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:08:53.472Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:53.479Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:53.481Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:53.482Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2023-09-02T22:08:53.645Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:53.648Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:53.648Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=email in page."}
+{"level":30,"time":"2023-09-02T22:08:53.650Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:53.657Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:55.661Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:55.661Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2023-09-02T22:08:55.685Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:55.687Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:55.689Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:55.690Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2023-09-02T22:08:55.690Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2023-09-02T22:08:55.724Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method getElementStates"}
+{"level":30,"time":"2023-09-02T22:08:55.730Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:55.732Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:55.735Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:55.735Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2023-09-02T22:08:55.781Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:55.782Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:55.782Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=password in page."}
+{"level":30,"time":"2023-09-02T22:08:55.784Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:55.787Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:57.790Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:57.790Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2023-09-02T22:08:57.814Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:08:57.816Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:57.819Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:08:57.820Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:57.820Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=btnLogin in page."}
+{"level":30,"time":"2023-09-02T22:08:57.865Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:08:57.867Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:57.867Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=btnLogin in page."}
+{"level":30,"time":"2023-09-02T22:08:57.868Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:08:57.871Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:08:59.875Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:08:59.875Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=btnLogin in page."}
+{"level":30,"time":"2023-09-02T22:09:01.348Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:09:01.351Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:01.357Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:01.369Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:01.371Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:01.372Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-09-02T22:09:01.381Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Removed page=c187e112-b629-4055-8b53-273adf922a6a from context=c592b6bb-84a6-4a09-9e7a-847ab6dd001f page stack"}
+{"level":30,"time":"2023-09-02T22:09:01.627Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method closeAllBrowsers"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9385:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9898:59)
+    at PlaywrightServer.setTimeout (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:10144:57)
+    at C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:394:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:381:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-02T22:09:06.633Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:09:06.633Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:09:06.638Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:09:06.638Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:09:06.641Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9903:15)
+    at PlaywrightServer.evaluateJavascript (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9958:75)
+    at C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:394:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:381:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-02T22:09:06.642Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:06.644Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-09-02T22:09:07.118Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method newBrowser"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9903:15)
+    at PlaywrightServer.evaluateJavascript (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9958:75)
+    at C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:394:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:381:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-02T22:09:07.121Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:07.121Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:07.125Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-09-02T22:09:07.125Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-09-02T22:09:07.125Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Trace file: "}
+{"level":30,"time":"2023-09-02T22:09:07.136Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Changed active context"}
+{"level":30,"time":"2023-09-02T22:09:07.136Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method newContext"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9903:15)
+    at PlaywrightServer.evaluateJavascript (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9958:75)
+    at C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:394:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:381:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-02T22:09:07.140Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:07.143Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-09-02T22:09:07.140Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:07.143Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-09-02T22:09:07.452Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Video path: undefined"}
+{"level":30,"time":"2023-09-02T22:09:07.452Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Changed active page"}
+{"level":30,"time":"2023-09-02T22:09:08.834Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method newPage"}
+{"level":30,"time":"2023-09-02T22:09:08.837Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:08.920Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:08.929Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:08.938Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:08.940Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:09:08.940Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=ul-btn in page."}
+{"level":30,"time":"2023-09-02T22:09:09.027Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:09:09.029Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:09:09.029Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=ul-btn in page."}
+{"level":30,"time":"2023-09-02T22:09:09.033Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:09:09.037Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:09:11.039Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:09:11.039Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=ul-btn in page."}
+{"level":30,"time":"2023-09-02T22:09:11.371Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:09:11.373Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:11.377Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:11.378Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:09:11.378Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2023-09-02T22:09:11.501Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:09:11.503Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:09:11.504Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=email in page."}
+{"level":30,"time":"2023-09-02T22:09:11.506Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:09:11.511Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:09:13.514Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:09:13.514Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2023-09-02T22:09:13.538Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:09:13.541Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:13.543Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:13.545Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2023-09-02T22:09:13.545Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2023-09-02T22:09:13.573Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method getElementStates"}
+{"level":30,"time":"2023-09-02T22:09:13.577Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:13.579Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:13.582Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:09:13.582Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"btnNext\"] in page."}
+{"level":30,"time":"2023-09-02T22:09:13.620Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:09:13.621Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:09:13.621Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: xpath=//*[@id=\"btnNext\"] in page."}
+{"level":30,"time":"2023-09-02T22:09:13.624Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:09:13.627Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:09:15.629Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:09:15.630Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"btnNext\"] in page."}
+{"level":30,"time":"2023-09-02T22:09:15.720Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:09:15.724Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:15.726Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:15.728Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:09:15.728Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2023-09-02T22:09:16.854Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:09:16.855Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:09:16.855Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=password in page."}
+{"level":30,"time":"2023-09-02T22:09:16.857Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:09:16.860Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:09:18.862Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-09-02T22:09:18.863Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2023-09-02T22:09:18.880Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method fillText"}
+{"level":30,"time":"2023-09-02T22:09:18.884Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:18.887Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:18.889Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:09:18.889Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=btnLogin in page."}
+{"level":30,"time":"2023-09-02T22:09:18.938Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-02T22:09:18.940Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:09:18.940Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is disabled, return Locator: id=btnLogin in page."}
+{"level":30,"time":"2023-09-02T22:09:18.941Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Locator count is 1"}
+{"level":30,"time":"2023-09-02T22:09:18.944Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method highlightElements"}
+{"level":30,"time":"2023-09-02T22:09:20.948Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-02T22:09:20.948Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Strict mode is enabled, find Locator with id=btnLogin in page."}
+{"level":30,"time":"2023-09-02T22:09:22.307Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method click"}
+{"level":30,"time":"2023-09-02T22:09:22.311Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:22.317Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:22.328Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:22.331Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-02T22:09:22.332Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-09-02T22:09:22.341Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Removed page=49360d6b-387c-4ab3-9c89-45a307e000e2 from context=3fd3b648-73f5-4f3f-97d2-7bacfa15d21a page stack"}
+{"level":30,"time":"2023-09-02T22:09:22.630Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method closeAllBrowsers"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9385:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9898:59)
+    at PlaywrightServer.setTimeout (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:10144:57)
+    at C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:394:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:381:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-02T22:09:27.635Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:09:27.635Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9385:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:9898:59)
+    at PlaywrightServer.setTimeout (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:10144:57)
+    at C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:394:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Carol Lemes\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:381:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-02T22:09:27.644Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:09:27.644Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-02T22:09:29.695Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-09-02T22:09:29.695Z","pid":1992,"hostname":"DESKTOP-J8151OI","msg":"End of node method closeAllBrowsers"}
