@@ -34,14 +34,14 @@ jobs:
       - name: Install Requirements
         run: |  #o sudo é por estar usando o ubuntu
           python -m pip install --upgrade pip
-          pip install -U -r web-sandbox-paypal/requirements.txt
+          pip install -U -r requirements.txt
           sudo npm install @playwright/test
           sudo npx playwright install-deps
           rfbrowser init
       
       - name: Run RF (Robot Framework) WEB tests
         run: |
-          robot -d ./web-sandbox-paypal/results -v HEADLESS:true -v BROWSER:chromium web-sandbox-paypal/test
+          robot -d ./web-sandbox-paypal/results -v HEADLESS:true -v BROWSER:chromium test
 
   desktop-tests:
     runs-on: ubuntu-20.04

@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ./variables.robot
+Resource    variables.robot
 Library     Browser    timeout=00:00:20    enable_presenter_mode=True
 Library     phone-generator.py
 Library     cpf-generator.py
@@ -83,13 +83,10 @@ Faça login
 Adicione um cartão de crédito na aplicação
     Click                     ${BUTTON_ADD_CARD_OR_BANK}
     Click                     ${BUTTON_ADD_CARD}
-    ${card_number}=           Generate Valid Credit Card Number
-    Fill Text                 ${INPUT_CARD_NUMBER}        ${card_number}
-    Press Keys                ${DROPDOWN_CARD_TYPE}    ArrowDown    ArrowDown    Enter
-    ${cvv}                    FakerLibrary.Credit Card Security Code
-    Fill Text                 ${INPUT_CVV}                ${cvv}
-    ${due_date}               FakerLibrary.Credit Card Expire
-    Fill Text                 ${INPUT_DUE_DATE}           ${due_date}
+    Fill Text                 ${INPUT_CARD_NUMBER}        5183344135577823
+    Press Keys                ${DROPDOWN_CARD_TYPE}       ArrowDown    ArrowDown    Enter
+    Fill Text                 ${INPUT_CVV}                148
+    Fill Text                 ${INPUT_DUE_DATE}           1024
     Click                     ${BUTTON_ADD_CARD_FINISH}
     Wait For Elements State   ${TEXT_ADD_CARD_DONE}
 

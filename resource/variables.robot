@@ -1,10 +1,10 @@
-*** Settings ***
 
 *** Variables ***
 
-#Criação de Conta
 ${URL}                                  https://www.sandbox.paypal.com/
 ${HEADLESS}                             ${false}
+
+#Criação de Conta
 ${BUTTON_CREATE_ACCOUNT}                id=signup-button
 ${CHECKBOX_FOR_ME}                      xpath=//span[contains(.,'Para mim')]
 ${BUTTON_FOR_ME_ACCOUNT_NEXT}           xpath=//a[contains(.,'Avançar')]
