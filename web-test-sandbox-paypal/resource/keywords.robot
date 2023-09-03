@@ -50,7 +50,7 @@ Crie uma conta grátis
     Click                 ${BUTTON_NEXT_CREATE_ACCOUNT}
 
 Valide o login automático
-    Get Text    ${TEXT_WELCOME}    ==    Bem-vindo ao PayPal!
+    Get Text    ${TEXT_WELCOME}    =    Bem-vindo ao PayPal!
     Click                      ${BUTTON_ACTIVATE_ACCOUNT_FIRT_ACESS}
     Wait For Elements State    ${ICON_NOTIFICATION}
     ${title}    Get Title    ==     PayPal: Resumo
