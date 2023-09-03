@@ -43,6 +43,12 @@ jobs:
         run: |
           robot -d ./web-sandbox-paypal/results -v HEADLESS:true -v BROWSER:chromium web-test/test
 
+      - name: Upload de Log do Robot Framework
+        uses: actions/upload-artifact@v2
+        with:
+          name: robot-logs  # Nome do artefato
+          path: ./results/log.html  # Caminho para o log do Robot Framework
+
   desktop-tests:
     runs-on: ubuntu-20.04
     if: ${{ github.event.inputs.test_type == 'desktop' }}
