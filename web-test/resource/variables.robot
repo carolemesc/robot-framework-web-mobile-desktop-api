@@ -1,7 +1,7 @@
 
 *** Variables ***
 
-${URL}                                  https://www.sandbox.paypal.com/
+${URL}                                  https://www.sandbox.paypal.com/br/home
 ${HEADLESS}                             ${false}
 
 #Criação de Conta
