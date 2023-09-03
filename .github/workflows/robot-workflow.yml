@@ -47,7 +47,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: robot-logs  # Nome do artefato
-          path: ./results/log.html  # Caminho para o log do Robot Framework
+          path: ./web-sandbox-paypal/results/log.html  # Caminho para o log do Robot Framework
 
   desktop-tests:
     runs-on: ubuntu-20.04
