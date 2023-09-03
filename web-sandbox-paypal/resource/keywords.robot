@@ -5,11 +5,10 @@ Library     phone-generator.py
 Library     cpf-generator.py
 Library     valid-card-number.py
 Library     FakerLibrary
-Library     Collections
 
 *** Keywords ***
 Abra o site do Sandbox Paypal
-    New Browser    headless=False
+    New Browser    headless=${HEADLESS}
     New Context    viewport={'width': 1200, 'height': 800}    bypassCSP=True
     New Page       url=${URL}
     ${title}       Get Title    ==    Compras internacionais descomplicadas e muito mais | PayPal BR

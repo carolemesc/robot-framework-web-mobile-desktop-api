@@ -18,7 +18,30 @@ jobs:
     permissions: write-all  #para não ter problema de permissão quando for usar o token do github
     if: ${{ github.event.inputs.test_type == 'web' }}
     steps:
-      - run: echo "Ainda não existe workflow criado para testes Web nesse arquivo."
+      - name: checkout    #vai baixar os arquivos do repositório para poder rodar nos testes
+        uses: actions/checkout@v3
+
+      - name: Install Python 3.10     #precisa instalar a primeira dependência que usamos para rodar os teste
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Node.js 19.1
+        uses: actions/setup-node@v3
+        with:
+          node-version: '19.1'
+
+      - name: Install Requirements
+        run: |  #o sudo é por estar usando o ubuntu
+          python -m pip install --upgrade pip
+          pip install -U -r web-sandbox-paypal/requirements.txt
+          sudo npm install @playwright/test
+          sudo npx playwright install-deps
+          rfbrowser init
+      
+      - name: Run RF (Robot Framework) WEB tests
+        run: |
+          robot -d ./web-sandbox-paypal/results -v HEADLESS:true -v BROWSER:chromium web-sandbox-paypal/test
 
   desktop-tests:
     runs-on: ubuntu-20.04
