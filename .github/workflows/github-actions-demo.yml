@@ -1,0 +1,39 @@
+name: Manual Run Tests
+run-name: ${{ github.actor }} está testando seu código pelo GHA
+on:
+  workflow_dispatch:
+    inputs:
+      test_type:
+        type: choice
+        required: true
+        options:
+          - web
+          - desktop
+          - mobile
+          - api
+
+jobs:
+  web-tests:
+    runs-on: ubuntu-20.04
+    permissions: write-all  #para não ter problema de permissão quando for usar o token do github
+    if: ${{ github.event.inputs.test_type == 'web' }}
+    steps:
+      - run: echo "Ainda não existe workflow criado para testes Web nesse arquivo."
+
+  desktop-tests:
+    runs-on: ubuntu-20.04
+    if: ${{ github.event.inputs.test_type == 'desktop' }}
+    steps:
+      - run: echo "Ainda não existe teste e/ou workflow criado para testes Desktop nesse arquivo."
+
+  mobile-tests:
+    runs-on: ubuntu-20.04
+    if: ${{ github.event.inputs.test_type == 'mobile' }}
+    steps:
+      - run: echo "Ainda não existe teste e/ou workflow criado para testes Mobile nesse arquivo."
+
+  api-tests:
+    runs-on: ubuntu-20.04
+    if: ${{ github.event.inputs.test_type == 'api' }}
+    steps:
+      - run: echo "Ainda não existe teste e/ou workflow criado para testes de API nesse arquivo."

@@ -6,11 +6,11 @@ Esse é um projeto pessoal que tem como objetivo me desafiar a criar uma automa�
 - **Sandbox PayPal**: O PayPal fornece um ambiente sandbox que permite criar contas de teste e realizar transações fictícias em que é possível praticar a automação de login, navegação e simulação de transações. Acesse-o em: https://www.sandbox.paypal.com/
 
 - **Instalações:**
-    - Robot:
-    - Python:
-    - Node.js:
-    - Lib Browser:
-    - Lib Faker: `pip install robotframework-faker`
+    - Robot
+    - Python
+    - Node.js
+    - Lib Browser
+    - Lib Faker
 
 - **Libraries**:
     - **Browser:** Browser library uses Playwright Node module to automate Chromium, Firefox and WebKit with a single library.
