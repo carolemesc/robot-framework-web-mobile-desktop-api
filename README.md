@@ -20,4 +20,4 @@ Esse é um projeto pessoal que tem como objetivo me desafiar a criar uma automa�
 
 - **Dicas:**
     - **Busca por elementos:** [TruePath](https://chrome.google.com/webstore/detail/truepath/mgjhkhhbkkldiihlajcnlfchfcmhipmn) é uma extensão do Chrome que TruePath gera o XPath relativo, script e analisa o código ao clicar
-    ![TruePath](./web-sandbox-paypal/TruePath.png)
+    ![TruePath](./web-test-sandbox-paypal/TruePath.png)web-test\TruePath.png
