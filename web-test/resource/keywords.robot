@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    variables.robot
+Resource    ./variables.robot
 Library     Browser    timeout=00:00:20    enable_presenter_mode=True
 Library     phone-generator.py
 Library     cpf-generator.py
@@ -11,7 +11,6 @@ Abra o site do Sandbox Paypal
     New Browser    headless=${HEADLESS}
     New Context    viewport={'width': 1200, 'height': 800}    bypassCSP=True
     New Page       url=${URL}
-    ${title}       Get Title    ==    Compras internacionais descomplicadas e muito mais | PayPal BR
 
 Crie uma conta grátis
     Click                 ${BUTTON_CREATE_ACCOUNT}
