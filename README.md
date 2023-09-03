@@ -19,5 +19,9 @@ Esse é um projeto pessoal que tem como objetivo me desafiar a criar uma automa�
     - **phone-gererator.py**: código python criado para gerar um número de telefone
 
 - **Dicas:**
-    - **Busca por elementos:** [TruePath](https://chrome.google.com/webstore/detail/truepath/mgjhkhhbkkldiihlajcnlfchfcmhipmn) é uma extensão do Chrome que TruePath gera o XPath relativo, script e analisa o código ao clicar
+    - **Busca por elementos:** [TruePath](https://chrome.google.com/webstore/detail/truepath/mgjhkhhbkkldiihlajcnlfchfcmhipmn) é uma extensão do Chrome que gera o XPath relativo, script e analisa o código ao clicar
     ![TruePath](./web-test-sandbox-paypal/TruePath.png)web-test\TruePath.png
+
+---
+
+# API test:
