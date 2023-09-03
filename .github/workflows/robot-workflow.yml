@@ -1,5 +1,5 @@
 name: Manual Run Tests
-run-name: ${{ github.actor }} está testando seu código pelo GHA
+run-name: ${{ github.actor }} está testando seu código ${{ github.event.inputs.test_type }} pelo GHA
 on:
   workflow_dispatch:
     inputs:
