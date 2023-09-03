@@ -50,6 +50,14 @@ jobs:
           name: test-results
           path: /home/runner/work/robot-framework-web-mobile-desktop-api/robot-framework-web-mobile-desktop-api/web-sandbox-paypal/results/
     
+  final-status:
+    needs: web-tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set workflow status
+        run: exit 1
+
 
   desktop-tests:
     runs-on: ubuntu-20.04
