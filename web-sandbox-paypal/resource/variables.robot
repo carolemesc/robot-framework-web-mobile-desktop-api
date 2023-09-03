@@ -47,8 +47,7 @@ ${BUTTON_ADD_CARD_OR_BANK}              id=bankCardLinkBankOrCard
 ${BUTTON_ADD_CARD}                      xpath=//span[@class='col-xs-9 transfer-list'][contains(.,'Adicione um cartãoMantenha os dados do seu cartão protegidos ao fazer compras')]
 ${INPUT_CARD_NUMBER}                    id=cardNumber
 ${DROPDOWN_CARD_TYPE}                   id=brand
-${DROPDOWN_OPTION_CARD_VISA}            xpath=//option[@value='visa'][contains(.,'Visa')]
 ${INPUT_DUE_DATE}                       id=expDate
 ${INPUT_CVV}                            id=verificationCode
-${BUTTON_ADD_CARD_FINISH}               id=detailsSubmit
+${BUTTON_ADD_CARD_FINISH}               xpath=//button[@type='submit'][contains(.,'Adicionar cartão')]
 ${TEXT_ADD_CARD_DONE}                   xpath=//h2[contains(@class,'ppvx_text--heading-sm fiActionResult-header test_fiActionResult-header ')]
