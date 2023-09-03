@@ -42,6 +42,7 @@ jobs:
       - name: Run RF (Robot Framework) WEB tests
         run: |
           robot -d ./web-sandbox-paypal/results -v HEADLESS:true -v BROWSER:chromium web-test-sandbox-paypal/test
+          resultado_comando="$?"
         continue-on-error: true
 
       - name: Upload results
@@ -50,13 +51,12 @@ jobs:
           name: test-results
           path: /home/runner/work/robot-framework-web-mobile-desktop-api/robot-framework-web-mobile-desktop-api/web-sandbox-paypal/results/
     
-  final-status:
-    needs: web-tests
-    runs-on: ubuntu-latest
-
-    steps:
       - name: Set workflow status
-        run: exit 1
+        run: |
+          if [ $resultado_comando -ne 0 ]; then
+            echo "O teste executado em 'Run RF (Robot Framework) WEB tests' falhou"
+            exit 1
+          fi
 
 
   desktop-tests:
