@@ -54,8 +54,8 @@ jobs:
       - name: Set workflow status
         run: |
           if [[ "${{ steps.test.outputs.result }}" == "failure" ]]; then
-          fail "O teste executado em 'Run RF (Robot Framework) WEB tests' falhou"
-          exit 1
+            fail "O teste executado em 'Run RF (Robot Framework) WEB tests' falhou"
+            exit 1
           fi
 
   desktop-tests:
