@@ -82,8 +82,8 @@ Faça login
 Adicione um cartão de crédito na aplicação
     Click                     ${BUTTON_ADD_CARD_OR_BANK}
     Click                     ${BUTTON_ADD_CARD}
-    #${card_number}            FakerLibrary.Credit Card Number
-    Fill Text                 ${INPUT_CARD_NUMBER}        111111
+    ${card_number}            FakerLibrary.Credit Card Number
+    Fill Text                 ${INPUT_CARD_NUMBER}        ${card_number}
     Press Keys                ${DROPDOWN_CARD_TYPE}       ArrowDown    ArrowDown    Enter
     ${cvv}                    FakerLibrary.Credit Card Security Code
     Fill Text                 ${INPUT_CVV}                ${cvv}
@@ -106,21 +106,6 @@ Adicione um cartão de crédito na aplicação
             Take Screenshot
         END
     END
-
-    # ${status_invalid_card}    Get Element States          ${TEXT_INVALID_CARD}
-    # Log    ${status_invalid_card}
-    # IF    'attached' in $status_invalid_card
-    #     WHILE    'attached' in $status_invalid_card
-    #         ${card_number}            FakerLibrary.Credit Card Number
-    #         Fill Text                 ${INPUT_CARD_NUMBER}        ${card_number}
-    #         Click                     ${BUTTON_ADD_CARD_FINISH}
-    #         ${status_invalid_card}    Get Element States          ${TEXT_INVALID_CARD}
-    #         Take Screenshot
-    #     END
-    # ELSE
-    #     Take Screenshot
-    #     Wait For Elements State   ${TEXT_ADD_CARD_DONE}
-    # END
 
     
 
