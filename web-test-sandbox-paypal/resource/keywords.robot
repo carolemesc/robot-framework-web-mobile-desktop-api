@@ -64,6 +64,7 @@ Faça login com a conta previamente criada
 
 Faça login
     [Arguments]    ${EMAIL}    ${PASSWORD}
+    Sleep    2
     Click          ${BUTTON_ENTER_ACCOUNT}
     Fill Text      ${INPUT_EMAIL_LOGIN}        ${EMAIL}
     ${status}      Get Element States          ${INPUT_PASSWORD_LOGIN}
