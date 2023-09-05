@@ -51,5 +51,5 @@ ${DROPDOWN_CARD_TYPE}                   id=brand
 ${INPUT_DUE_DATE}                       id=expDate
 ${INPUT_CVV}                            id=verificationCode
 ${BUTTON_ADD_CARD_FINISH}               xpath=//button[@type='submit'][contains(.,'Adicionar cartão')]
-${TEXT_ADD_CARD_DONE}                   xpath=//h2[contains(@class,'ppvx_text--heading-sm fiActionResult-header test_fiActionResult-header ')]
+${TEXT_ADD_CARD_DONE}                   id=js_modalHeader
 ${TEXT_INVALID_CARD}                    xpath=//p[@role='alert'][contains(.,'Número do cartão inválido. Verifique o número e tente novamente.')]
