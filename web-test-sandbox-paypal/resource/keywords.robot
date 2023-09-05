@@ -91,19 +91,36 @@ Adicione um cartão de crédito na aplicação
     Fill Text                 ${INPUT_DUE_DATE}           ${due_date}
     Click                     ${BUTTON_ADD_CARD_FINISH}
     Sleep    2
-    ${status_invalid_card}    Get Element States          ${TEXT_INVALID_CARD}
-    Log    ${status_invalid_card}
     Take Screenshot
-    IF    'attached' in $status_invalid_card
-        WHILE    'attached' in $status_invalid_card
+    ${status_add_card_success}    Get Element States        ${TEXT_ADD_CARD_DONE}
+    Log    ${status_add_card_success}
+    IF    'attached' in $status_add_card_success
+        Take Screenshot
+    ELSE
+        WHILE    'attached' not in $status_add_card_success
             ${card_number}            FakerLibrary.Credit Card Number
             Fill Text                 ${INPUT_CARD_NUMBER}        ${card_number}
             Click                     ${BUTTON_ADD_CARD_FINISH}
-            ${status_invalid_card}    Get Element States          ${TEXT_INVALID_CARD}
+            ${status_add_card_success}    Get Element States          ${TEXT_ADD_CARD_DONE}
             Take Screenshot
         END
-    ELSE
-        Take Screenshot
-        Wait For Elements State   ${TEXT_ADD_CARD_DONE}
     END
+
+    # ${status_invalid_card}    Get Element States          ${TEXT_INVALID_CARD}
+    # Log    ${status_invalid_card}
+    # IF    'attached' in $status_invalid_card
+    #     WHILE    'attached' in $status_invalid_card
+    #         ${card_number}            FakerLibrary.Credit Card Number
+    #         Fill Text                 ${INPUT_CARD_NUMBER}        ${card_number}
+    #         Click                     ${BUTTON_ADD_CARD_FINISH}
+    #         ${status_invalid_card}    Get Element States          ${TEXT_INVALID_CARD}
+    #         Take Screenshot
+    #     END
+    # ELSE
+    #     Take Screenshot
+    #     Wait For Elements State   ${TEXT_ADD_CARD_DONE}
+    # END
+
+    
+
 
