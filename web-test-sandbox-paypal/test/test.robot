@@ -18,4 +18,3 @@ Crie a conta, acesse uma conta no Sandbox Paypal e adicione um cartão
 
 Fazer login com conta existente
     Faça login    carol@yopmail.com    @123@123
-    Adicione um cartão de crédito na aplicação

@@ -94,16 +94,21 @@ Adicione um cartão de crédito na aplicação
     Take Screenshot
     ${status_add_card_success}    Get Element States        ${TEXT_ADD_CARD_DONE}
     Log    ${status_add_card_success}
+    ${loop_counter}=              Set Variable    0
     IF    'attached' in $status_add_card_success
         Take Screenshot
     ELSE
-        WHILE    'attached' not in $status_add_card_success
+        WHILE    'attached' not in $status_add_card_success and ${loop_counter} < 10
             ${card_number}            FakerLibrary.Credit Card Number
             Fill Text                 ${INPUT_CARD_NUMBER}        ${card_number}
             Click                     ${BUTTON_ADD_CARD_FINISH}
             Sleep    2
             ${status_add_card_success}    Get Element States          ${TEXT_ADD_CARD_DONE}
             Take Screenshot
+            ${loop_counter}=          Evaluate    ${loop_counter} + 1
+        END
+        IF    'attached' not in $status_add_card_success
+            Log    não foi possível adicionar um cartão válido utilizando a Faker Library  
         END
     END
 
