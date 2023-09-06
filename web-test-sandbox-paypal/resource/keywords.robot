@@ -12,7 +12,7 @@ Abra o site do Sandbox Paypal
     New Page       url=${URL}
     ${title}       Get Title    ==    Compras internacionais descomplicadas e muito mais | PayPal BR
 
-Crie uma conta grátis
+Crie uma conta gratis
     Click                 ${BUTTON_CREATE_ACCOUNT}
     Check Checkbox        ${CHECKBOX_FOR_ME}
     Click                 ${BUTTON_FOR_ME_ACCOUNT_NEXT}
@@ -48,18 +48,18 @@ Crie uma conta grátis
     Check Checkbox        ${CHECKBOX_AGREE}
     Click                 ${BUTTON_NEXT_CREATE_ACCOUNT}
 
-Valide o login automático
+Valide o login automatico
     Get Text    ${TEXT_WELCOME}    ==    Bem-vindo ao PayPal!
     Click                      ${BUTTON_ACTIVATE_ACCOUNT_FIRT_ACESS}
     Wait For Elements State    ${ICON_NOTIFICATION}
     ${title}    Get Title    ==     PayPal: Resumo
 
-Deslogue do login automático
-    Valide o login automático
+Deslogue do login automatico
+    Valide o login automatico
     Click        ${BUTTON_LOGOUT}
 
 Faça login com a conta previamente criada
-    Deslogue do login automático
+    Deslogue do login automatico
     Faça login    ${EMAIL}    ${PASSWORD}
 
 Faça login
@@ -80,7 +80,7 @@ Faça login
     Click        ${BUTTON_LOGIN}
     ${title}     Get Title    ==     PayPal: Resumo
 
-Adicione um cartão de crédito na aplicação
+Adicione um cartao de credito na aplicacao
     Click                     ${BUTTON_ADD_CARD_OR_BANK}
     Click                     ${BUTTON_ADD_CARD}
     ${card_number}            FakerLibrary.Credit Card Number
@@ -109,7 +109,7 @@ Adicione um cartão de crédito na aplicação
             ${loop_counter}=          Evaluate    ${loop_counter} + 1
         END
         IF    'attached' not in $status_add_card_success
-            Log    não foi possível adicionar um cartão válido utilizando a Faker Library  
+            Log    não foi possível adicionar um cartao válido utilizando a Faker Library  
         END
     END
 

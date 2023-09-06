@@ -7,14 +7,14 @@ Suite Teardown    Close Browser    ALL
 *** Test Cases ***
 
 Crie uma conta no Sandbox Paypal
-    Crie uma conta grátis
-    Valide o login automático
+    Crie uma conta gratis
+    Valide o login automatico
     
 
-Crie a conta, acesse uma conta no Sandbox Paypal e adicione um cartão
-    Crie uma conta grátis
+Crie a conta, acesse uma conta no Sandbox Paypal e adicione um cartao
+    Crie uma conta gratis
     Faça login com a conta previamente criada
-    Adicione um cartão de crédito na aplicação
+    Adicione um cartao de credito na aplicacao
 
 Fazer login com conta existente
     Faça login    carol@yopmail.com    @123@123
