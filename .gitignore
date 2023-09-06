@@ -1,0 +1,7 @@
+log.html
+output.xml
+playwright-log.txt
+report.html
+web-test-sandbox-paypal/resource/__pycache__/cpf-generator.cpython-311.pyc
+web-test-sandbox-paypal/resource/__pycache__/phone-generator.cpython-311.pyc
+browser/screenshot/robotframework-browser-screenshot-*.png
