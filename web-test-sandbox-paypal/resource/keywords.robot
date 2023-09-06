@@ -13,6 +13,7 @@ Abra o site do Sandbox Paypal
     ${title}       Get Title    ==    Compras internacionais descomplicadas e muito mais | PayPal BR
 
 Crie uma conta gratis
+    Sleep    2
     Click                 ${BUTTON_CREATE_ACCOUNT}
     Check Checkbox        ${CHECKBOX_FOR_ME}
     Click                 ${BUTTON_FOR_ME_ACCOUNT_NEXT}
