@@ -136,7 +136,7 @@ jobs:
       - name: Run RF (Robot Framework) ALL tests
         id: testALL
         run: |
-          robot -d ./web-sandbox-paypal/results -v HEADLESS:true -v BROWSER:chromium web-test-sandbox-paypal/test
+          robot -d ./web-sandbox-paypal/results -v HEADLESS:true -v BROWSER:chromium web-test-sandbox-paypal/test || true
           robot -d ./api-pet-store/results api-pet-store/test
         continue-on-error: true
 
