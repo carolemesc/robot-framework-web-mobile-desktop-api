@@ -17,6 +17,7 @@ Esse é um projeto pessoal que tem como objetivo me desafiar a criar uma automa�
         - enable_presenter_mode: destaca os elementos na tela, mostra as kw que está executando
         - timeout: por padrão o timeout é 10s
     - **phone-gererator.py**: código python criado para gerar um número de telefone
+    - **cpf-generator.py**: código python criado para gerar um número de cpf válido
 
 - **Dicas:**
     - **Busca por elementos:** [TruePath](https://chrome.google.com/webstore/detail/truepath/mgjhkhhbkkldiihlajcnlfchfcmhipmn) é uma extensão do Chrome que gera o XPath relativo, script e analisa o código ao clicar
@@ -25,3 +26,14 @@ Esse é um projeto pessoal que tem como objetivo me desafiar a criar uma automa�
 ---
 
 # API test:
+
+- **Swagger Petstore**: Um exemplo de documentação Swagger para uma loja de animais fictícia.
+
+- **Instalações:**
+    - Robot
+    - Python
+    - Lib Request
+
+- **Libraries**:
+    - **RequestsLibrary**: Fornece funcionalidades de teste de APIs HTTP, envolvendo a conhecida biblioteca Python Requests.
+    - **Collections**: Faz conferência de dicionários (json) e listas (array)    
