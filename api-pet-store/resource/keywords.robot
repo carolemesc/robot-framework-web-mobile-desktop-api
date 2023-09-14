@@ -38,24 +38,26 @@ Criar um novo pet
 Adicionar o pet criado a loja
     [Arguments]    ${PET_STATUS}    ${STATUS_CODE}
     
-    ${pet_id}            FakerLibrary.Random Number    digits=3    fix_len=False
+    ${pet_id}      FakerLibrary.Random Number    digits=3    fix_len=False
 
     ${category}    Create Dictionary
     ...            id=${CATEGORY_ID} 
     ...            name=${CATEGORY_NAME}
 
-    ${name}        Create Dictionary
-    ...            photoUrls='teste'
+    ${photoUrls}   Create List    "https://images.app.goo.gl/52HJNJipk5xmfDvM9"
 
     ${tags}        Create Dictionary
     ...            id=${TAG_ID}
     ...            name=${GENDER}
+      
+    ${tag_list}    Create List    ${tags}
 
     ${body}        Create Dictionary
     ...            id=${pet_id}    
     ...            category=${category}
-    ...            name=${name}
-    ...            tags=${tags}
+    ...            name=${PET_NAME}
+    ...            photoUrls=${photoUrls}
+    ...            tags=${tag_list}
     ...            status=${PET_STATUS}
 
     Criar sessao na Pet Store
