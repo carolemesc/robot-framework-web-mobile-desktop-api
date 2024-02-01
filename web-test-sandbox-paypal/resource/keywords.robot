@@ -10,7 +10,7 @@ Abra o site do Sandbox Paypal
     New Browser    headless=${HEADLESS}
     New Context    viewport={'width': 1200, 'height': 800}    bypassCSP=True
     New Page       url=${URL}
-    ${title}       Get Title    ==    Compras internacionais descomplicadas e muito mais | PayPal BR
+    ${title}       Get Title    ==    Carteiras digitais, Gerenciamento de recursos e muito mais | PayPal BR
 
 Crie uma conta gratis
     Get Element States    ${BUTTON_CREATE_ACCOUNT}         validate    value & visible
