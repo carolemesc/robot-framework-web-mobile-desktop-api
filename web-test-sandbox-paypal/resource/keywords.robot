@@ -17,13 +17,14 @@ Crie uma conta gratis
     Click                 ${BUTTON_CREATE_ACCOUNT}
     Check Checkbox        ${CHECKBOX_FOR_ME}
     Click                 ${BUTTON_FOR_ME_ACCOUNT_NEXT}
+    ${email}              FakerLibrary.Email
+    Set Test Variable     ${EMAIL}                         ${email}
+    Fill Text             ${INPUT_EMAIL}                   ${email}
+    Click                 ${BUTTON_EMAIL_ACCOUNT_NEXT}
     ${phone_number}=      Generate Phone Number
     Fill Text             ${INPUT_PHONE_NUMBER}            ${phone_number}
     Click                 ${BUTTON_PHONE_ACCOUNT_NEXT}
     Fill Text             ${INPUT_SMS_CODE}                111111
-    ${email}              FakerLibrary.Email
-    Set Test Variable     ${EMAIL}                         ${email}
-    Fill Text             ${INPUT_EMAIL}                   ${email}
     Fill Text             ${INPUT_NAME}                    Nome Teste
     Fill Text             ${INPUT_LAST_NAME}               Sobrenome Teste
     Fill Text             ${INPUT_MOTHER_NAME}             Nome Mãe
