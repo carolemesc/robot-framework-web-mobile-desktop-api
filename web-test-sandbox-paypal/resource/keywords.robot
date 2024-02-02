@@ -86,8 +86,8 @@ Faça login
     
     #ao desenvolver a ferramenta, deixaram a tela com insersão de senha e sem ela com os mesmos ids, por esse motivo fiz uma validação com "gambiarra", nesse caso apenas porque estou estudando a feramenta robot + browser, em outro contexto seria necessário conversar com os desenvolvedores
     Run Keyword And Ignore Error    Fill Text    ${INPUT_PASSWORD_LOGIN}   ${PASSWORD}
-    Click        ${BUTTON_NEXT}
-    Fill Text    ${INPUT_PASSWORD_LOGIN}   ${PASSWORD}
+    Run Keyword And Ignore Error    Click        ${BUTTON_NEXT}
+    Run Keyword And Ignore Error    Fill Text    ${INPUT_PASSWORD_LOGIN}   ${PASSWORD}
 
     Click        ${BUTTON_LOGIN}
     Sleep    5
