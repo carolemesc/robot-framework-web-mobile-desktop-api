@@ -41,7 +41,9 @@ ${BUTTON_LOGOUT}                        id=header-logout
 ${BUTTON_ENTER_ACCOUNT}                 id=ul-btn
 ${INPUT_EMAIL_LOGIN}                    id=email
 ${INPUT_PASSWORD_LOGIN}                 id=password
+${BUTTON_NEXT}                          id=btnNext
 ${BUTTON_LOGIN}                         id=btnLogin
+${ACCEPTED_COOKIES}                     id=acceptAllButton
 
 #Dados do cartão
 ${BUTTON_ADD_CARD_OR_BANK}              id=bankCardLinkBankOrCard

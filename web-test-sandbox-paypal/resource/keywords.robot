@@ -55,7 +55,13 @@ Crie uma conta gratis
 Valide o login automatico
     Get Text    ${TEXT_WELCOME}    ==    Bem-vindo ao PayPal!
     Click                      ${BUTTON_ACTIVATE_ACCOUNT_FIRT_ACESS}
-    #Wait For Elements State    ${ICON_NOTIFICATION}
+    ${status}   Get Element States          ${BUTTON_ACTIVATE_ACCOUNT_FIRT_ACESS}
+    Log    ${status}
+    IF   'visible' in $status
+        Click        ${BUTTON_ACTIVATE_ACCOUNT_FIRT_ACESS}
+    END
+    ##esse if foi criado porque existe um bug na ferramenta e as vezes é preciso clicar duas vezes no botão, mesmo que manualmente. no caso, o if existe apenas para terminar o fluxo de teste e desenvolver o estudo da ferramente
+    Sleep    5
     ${title}    Get Title    ==     PayPal: Resumo
 
 Deslogue do login automatico
@@ -70,18 +76,27 @@ Faça login
     [Arguments]    ${EMAIL}    ${PASSWORD}
     Sleep    2
     Click          ${BUTTON_ENTER_ACCOUNT}
+    Sleep    2
+    ${status-cookie}    Get Element States     ${ACCEPTED_COOKIES}
+    IF    'visible' in ${status-cookie}
+        Click        ${ACCEPTED_COOKIES}      
+    END
+
     Fill Text      ${INPUT_EMAIL_LOGIN}        ${EMAIL}
     ${status}      Get Element States          ${INPUT_PASSWORD_LOGIN}
 
-    ${hidden_found}    Evaluate    'hidden' in ${status}
-
-    IF  ${hidden_found} == ${True}
-        Click        xpath=//*[@id="btnNext"]
+    IF  'visible' in ${status}
+        Click        ${BUTTON_NEXT}
         Fill Text    ${INPUT_PASSWORD_LOGIN}   ${PASSWORD}
     ELSE
         Fill Text    ${INPUT_PASSWORD_LOGIN}   ${PASSWORD}
     END
+    # ${status-cookie}    Get Element States     ${ACCEPTED_COOKIES}
+    # IF    'visible' in ${status-cookie}
+    #     Click        ${ACCEPTED_COOKIES}      
+    # END
     Click        ${BUTTON_LOGIN}
+    Sleep    5
     ${title}     Get Title    ==     PayPal: Resumo
 
 Adicione um cartao de credito na aplicacao
