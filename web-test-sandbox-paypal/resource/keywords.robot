@@ -20,7 +20,7 @@ Crie uma conta gratis
     ${email}              FakerLibrary.Email
     Set Test Variable     ${EMAIL}                         ${email}
     Fill Text             ${INPUT_EMAIL}                   ${email}
-    Click                 ${BUTTON_EMAIL_ACCOUNT_NEXT}
+    Click                 ${BUTTON_ACCOUNT_NEXT}
     ${phone_number}=      Generate Phone Number
     Fill Text             ${INPUT_PHONE_NUMBER}            ${phone_number}
     Click                 ${BUTTON_PHONE_ACCOUNT_NEXT}
@@ -28,21 +28,21 @@ Crie uma conta gratis
     ${password}           FakerLibrary.Password            special_chars=True
     Set Test Variable     ${PASSWORD}                      ${password}
     Fill Text             ${INPUT_CREATE_PASSWORD}         ${password}
-    ##Fill Text             ${INPUT_CONFIRM_PASSWORD}        ${password}
-
+    Click                 ${BUTTON_ACCOUNT_NEXT}
     Fill Text             ${INPUT_NAME}                    Nome Teste
     Fill Text             ${INPUT_LAST_NAME}               Sobrenome Teste
     Fill Text             ${INPUT_MOTHER_NAME}             Nome Mãe
     Fill Text             ${INPUT_LAST_MOTHER_NAME}        Sobrenome Mãe
+    Click                 ${BUTTON_NEXT_CREATE_ACCOUNT}
     Fill Text             ${INPUT_BIRTH_DATE}              01012000
     ${cpf}=               Generate Cpf
     Fill Text             ${INPUT_CPF}                     ${cpf}
-    
     Click                 ${BUTTON_NEXT_CREATE_ACCOUNT}
     Click                 ${INPUT_PROFESSION}
     Click                 ${SELECT_PROF_FIRST_OPTION}
     Click                 ${INPUT_MONTHLY_INCOME}
     Click                 ${SELECT_INCOM_FIFTH_OPTION}
+    Click                 ${BUTTON_NEXT_CREATE_ACCOUNT}
     Fill Text             ${INPUT_STREET_ADDRESS}          Rua Teste
     Fill Text             ${INPUT_NEIGHBORHOOD_ADDRESS}    Bairro Teste
     Fill Text             ${INPUT_CITY_ADDRESS}            Cidade Teste
@@ -55,7 +55,7 @@ Crie uma conta gratis
 Valide o login automatico
     Get Text    ${TEXT_WELCOME}    ==    Bem-vindo ao PayPal!
     Click                      ${BUTTON_ACTIVATE_ACCOUNT_FIRT_ACESS}
-    Wait For Elements State    ${ICON_NOTIFICATION}
+    #Wait For Elements State    ${ICON_NOTIFICATION}
     ${title}    Get Title    ==     PayPal: Resumo
 
 Deslogue do login automatico

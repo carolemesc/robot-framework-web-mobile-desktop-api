@@ -12,7 +12,7 @@ ${INPUT_PHONE_NUMBER}                   xpath=//input[@type='tel'][contains(@id,
 ${BUTTON_PHONE_ACCOUNT_NEXT}            xpath=//button[@class='pp-cons-ylhy9c-button_base-text_button_lg-btn_full_width'][contains(@id,'submit')][contains(.,'Avançar')]
 ${INPUT_SMS_CODE}                       xpath=//input[@class='pp-cons-18498sj-text_input_control-text_body-no_label_text_input_control-label_placeholder_shown_and_not_focused-text_body'][contains(@id,'0')]
 ${INPUT_EMAIL}                          id=paypalAccountData_email
-${BUTTON_EMAIL_ACCOUNT_NEXT}            id=paypalAccountData_submit
+${BUTTON_ACCOUNT_NEXT}                  id=paypalAccountData_submit
 ${INPUT_NAME}                           id=paypalAccountData_firstName
 ${INPUT_LAST_NAME}                      id=paypalAccountData_lastName
 ${INPUT_MOTHER_NAME}                    id=paypalAccountData_motherFirstName
@@ -20,7 +20,6 @@ ${INPUT_LAST_MOTHER_NAME}               id=paypalAccountData_motherLastName
 ${INPUT_BIRTH_DATE}                     id=paypalAccountData_dob
 ${INPUT_CPF}                            id=paypalAccountData_tax
 ${INPUT_CREATE_PASSWORD}                id=paypalAccountData_password
-${INPUT_CONFIRM_PASSWORD}               id=paypalAccountData_confirmPassword
 ${BUTTON_NEXT_CREATE_ACCOUNT}           id=paypalAccountData_emailPassword
 ${INPUT_PROFESSION}                     id=combo_txt_paypalAccountData_occupation
 ${SELECT_PROF_FIRST_OPTION}             id=/paypalAccountData/occupation__busMgmtBenefitsAdmin
