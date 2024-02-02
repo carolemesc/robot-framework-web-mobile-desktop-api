@@ -25,6 +25,11 @@ Crie uma conta gratis
     Fill Text             ${INPUT_PHONE_NUMBER}            ${phone_number}
     Click                 ${BUTTON_PHONE_ACCOUNT_NEXT}
     Fill Text             ${INPUT_SMS_CODE}                111111
+    ${password}           FakerLibrary.Password            special_chars=True
+    Set Test Variable     ${PASSWORD}                      ${password}
+    Fill Text             ${INPUT_CREATE_PASSWORD}         ${password}
+    ##Fill Text             ${INPUT_CONFIRM_PASSWORD}        ${password}
+
     Fill Text             ${INPUT_NAME}                    Nome Teste
     Fill Text             ${INPUT_LAST_NAME}               Sobrenome Teste
     Fill Text             ${INPUT_MOTHER_NAME}             Nome Mãe
@@ -32,10 +37,7 @@ Crie uma conta gratis
     Fill Text             ${INPUT_BIRTH_DATE}              01012000
     ${cpf}=               Generate Cpf
     Fill Text             ${INPUT_CPF}                     ${cpf}
-    ${password}           FakerLibrary.Password            special_chars=False
-    Set Test Variable     ${PASSWORD}                      ${password}
-    Fill Text             ${INPUT_CREATE_PASSWORD}         ${password}
-    Fill Text             ${INPUT_CONFIRM_PASSWORD}        ${password}
+    
     Click                 ${BUTTON_NEXT_CREATE_ACCOUNT}
     Click                 ${INPUT_PROFESSION}
     Click                 ${SELECT_PROF_FIRST_OPTION}
