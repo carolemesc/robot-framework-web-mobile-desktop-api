@@ -83,18 +83,12 @@ Faça login
     END
 
     Fill Text      ${INPUT_EMAIL_LOGIN}        ${EMAIL}
-    ${status}      Get Element States          ${INPUT_PASSWORD_LOGIN}
+    
+    #ao desenvolver a ferramenta, deixaram a tela com insersão de senha e sem ela com os mesmos ids, por esse motivo fiz uma validação com "gambiarra", nesse caso apenas porque estou estudando a feramenta robot + browser, em outro contexto seria necessário conversar com os desenvolvedores
+    Run Keyword And Ignore Error    Fill Text    ${INPUT_PASSWORD_LOGIN}   ${PASSWORD}
+    Click        ${BUTTON_NEXT}
+    Fill Text    ${INPUT_PASSWORD_LOGIN}   ${PASSWORD}
 
-    IF  'visible' in ${status}
-        Click        ${BUTTON_NEXT}
-        Fill Text    ${INPUT_PASSWORD_LOGIN}   ${PASSWORD}
-    ELSE
-        Fill Text    ${INPUT_PASSWORD_LOGIN}   ${PASSWORD}
-    END
-    # ${status-cookie}    Get Element States     ${ACCEPTED_COOKIES}
-    # IF    'visible' in ${status-cookie}
-    #     Click        ${ACCEPTED_COOKIES}      
-    # END
     Click        ${BUTTON_LOGIN}
     Sleep    5
     ${title}     Get Title    ==     PayPal: Resumo
